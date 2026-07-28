@@ -451,7 +451,7 @@ case when month between 1 and 4 then 'winter'
 from t1
 order by 2
 ```
-- 20. Rank each city based on the total revenue for the last year 2023.
+- 20 Rank each city based on the total revenue for the last year 2023.
 ```sql
 select * from restaurant r
 left join order o on r.orde
