@@ -101,7 +101,7 @@ select * from orders where order_item is null or order_date is null or order_tim
 
 
 
-- 1. Write a query to find the top five frequently ordered dishes by customer called Arjun Meeta in the last one year.
+- 1 Write a query to find the top five frequently ordered dishes by customer called Arjun Meeta in the last one year.
 ```sql
 select c.*, o.order_item as dishes, count(o.order_item) from orders o
 join customers c
